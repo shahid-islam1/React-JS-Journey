@@ -14,6 +14,8 @@ import Inputfield from "./input.jsx"
 import ControlledInput from "./Form.jsx"
 import Checkbox from "./checkBox.jsx"
 import RadioBtn from "./radioBtn.jsx"
+import ReactLoop from "./ReactLoop.jsx"
+import Clock from "./DigitalClock.jsx"
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
       <ControlledInput/>
       <Checkbox/>
       <RadioBtn/>
+      <ReactLoop/>
+      <Clock/>
     </div>
 
   )

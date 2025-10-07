@@ -1,5 +1,6 @@
-function ReactLoop(){
-    const users = [
+function ReactLoop() {
+
+    const userData = [
         {
             id: 1,
             name: "John Doe",
@@ -19,13 +20,32 @@ function ReactLoop(){
             age: 28
         }
     ]
-    return(
+    return (
         <div>
-            <table>
-                t
-                
+            <table border={1} >
+                <thead>
+                    <tr>
+                        <td>Id</td>
+                        <td>Name</td>
+                        <td>Age</td>
+                        <td>Email</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {userData.map((user) => (
+                        <tr>
+                             <td>{user.id}</td>
+                        <td>{user.name}</td>
+                        <td>{user.age}</td>
+                        <td>{user.email }</td>
+                        </tr>))
+                        }
+                </tbody>
+
+
             </table>
         </div>
     )
 
 }
+export default ReactLoop;
