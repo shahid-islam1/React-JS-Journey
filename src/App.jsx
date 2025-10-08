@@ -16,6 +16,7 @@ import Checkbox from "./checkBox.jsx"
 import RadioBtn from "./radioBtn.jsx"
 import ReactLoop from "./ReactLoop.jsx"
 import Clock from "./DigitalClock.jsx"
+import ArrayLoop from './ArrayLoop';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       <RadioBtn/>
       <ReactLoop/>
       <Clock/>
+      <ArrayLoop/>
     </div>
 
   )
