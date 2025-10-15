@@ -21,6 +21,15 @@ import BootStep from "./BootStep.jsx"
 import BasicExample from "./BootAlert.jsx"
 import RefHook from "./RefHook.jsx"
 import UnctrolledComp from "./UnctrooledComp.jsx"
+import ParentComp from "./ParentComp.jsx"
+import ForwardRef from "./ForwardRef.jsx"
+import FormStatusHook from "./useFormStatus.jsx"
+import UseTransitionState from "./useTransitionHook.jsx"
+import UseTransition from "./useTransition.jsx"
+import UseVariable from "./UseVariable.jsx"
+import LiftingState from "./LiftingStateUp.jsx"
+import UpdObjState from "./UpdObjState.jsx"
+import UpdArrayState from "./UpdArrayState.jsx"
 
 function App() {
   return (
@@ -73,6 +82,25 @@ function App() {
       <hr />
       <UnctrolledComp />
       <hr />
+      <ParentComp/>
+      <hr />
+      <ForwardRef/>
+      <hr />
+      <FormStatusHook/>
+      <hr />
+      <UseTransitionState/>
+      <hr />
+      <UseTransition/>
+      <hr />
+      <UseVariable/>
+      <hr />
+      <LiftingState/>
+      <hr />
+      <UpdObjState/>
+      <hr />
+      <UpdArrayState/>
+      <hr />
+
     </div>
 
   )
