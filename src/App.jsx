@@ -30,6 +30,9 @@ import UseVariable from "./UseVariable.jsx"
 import LiftingState from "./LiftingStateUp.jsx"
 import UpdObjState from "./UpdObjState.jsx"
 import UpdArrayState from "./UpdArrayState.jsx"
+import UseActionState from "./useActionState.jsx"
+import IdHook from "./useIdHook.jsx"
+import Fragment from "./fragment.jsx"
 
 function App() {
   return (
@@ -100,6 +103,13 @@ function App() {
       <hr />
       <UpdArrayState/>
       <hr />
+      <UseActionState/>
+      <hr />
+      <IdHook/>
+      <hr />
+      <Fragment/>
+      <hr />
+      
 
     </div>
 
